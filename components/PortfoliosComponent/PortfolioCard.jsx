@@ -18,7 +18,7 @@ const PortfolioCard = ({ domainName }) => {
             >
 
             {domainName}
-            <p>{`http://localhost:3000/${domainName}`}</p>
+            <p>{`https://portfolios-ltd.vercel.app/${domainName}`}</p>
 
         </div>
         </>
