@@ -8,7 +8,6 @@ import { getDatabase, ref, child, get } from "firebase/database";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_DB_APIKEY,
-  // apiKey: "AIzaSyDKnUtPs2uXEDuRHmUhuAktGrAp3brK9XI",
   authDomain: process.env.NEXT_PUBLIC_DB_AUTHDOMAIN,
   databaseURL: process.env.NEXT_PUBLIC_DB_DATABASEURL,
   projectId: process.env.NEXT_PUBLIC_DB_PROJECTID,
