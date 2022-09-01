@@ -1,0 +1,51 @@
+.signUpButton {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    z-index: 1;
+  }
+ .signUpButton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #fff056;
+    border-bottom: 2px solid #fff056;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: 0.3s;
+  }
+ .signUpButton:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff056;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.3s;
+    z-index: -1;
+  }
+ .signUpButton:hover {
+    color: black;
+    border: none;
+  }
+ .signUpButton:hover:before {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+ .signUpButton:hover:after {
+    transform: scaleY(1);
+    opacity: 1;
+  }
