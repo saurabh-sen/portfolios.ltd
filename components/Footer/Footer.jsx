@@ -111,7 +111,7 @@ const Footer = ({t, bottom}) => {
                         <span className="ml-3 text-xl">Portfolios.ltd</span>
                     </a>
                     <p className="text-sm text-white sm:ml-6 sm:mt-0 mt-4">© 2023 Portfolios.ltd —
-                        <a href="https://github.com/saurabh-sen" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@Saurabh</a>
+                        {/* <a href="https://github.com/saurabh-sen" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@Saurabh</a> */}
                     </p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                         <a className="text-white">
