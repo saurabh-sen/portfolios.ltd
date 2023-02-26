@@ -72,7 +72,7 @@ const Register = () => {
                     // ..
                 });
 
-        } else console.log("chutiya banaya tumko")
+        } else console.log("something wrong")
     };
 
     const setCookie = (cname, cvalue, cUid, cUidValue, exdays) => {
